@@ -1,0 +1,109 @@
+<!-- Name: Ahmed Yasser Sayed Ahmed Youssef Tabl -->
+<!-- Student ID: 226103967 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Yasser — Profile</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===== HEADER / NAVBAR ===== -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-name">Ahmed Yasser</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="https://github.com/Ahmed-2006-Eng" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+
+        <!-- Hero / Profile Section -->
+        <section class="hero" id="about">
+            <h1>Ahmed Yasser</h1>
+            <img src="images/me.svg" alt="A photo of Ahmed Yasser" class="profile-photo">
+        </section>
+
+        <!-- Three Cards -->
+        <section class="cards-section">
+            <div class="cards-row">
+
+                <div class="card">
+                    <h2>💻 Skills</h2>
+                    <ul>
+                        <li>HTML &amp; CSS</li>
+                        <li>JavaScript</li>
+                        <li>C# / .NET</li>
+                        <li>Data Structures</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>🎯 Hobbies</h2>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Reading Tech Blogs</li>
+                        <li>Football</li>
+                        <li>Gaming</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>🎓 Education</h2>
+                    <ul>
+                        <li>New Mansoura University</li>
+                        <li>Computer Science</li>
+                        <li>Field Training I</li>
+                        <li>Fall 2026–2027</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-section" id="contact">
+            <h2>📬 Get in Touch</h2>
+            <form class="contact-form" onsubmit="return false;">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                <button type="submit" class="btn-submit">Send</button>
+            </form>
+        </section>
+
+        <!-- Dark Mode Toggle -->
+        <section class="toggle-section">
+            <button id="darkToggle" class="btn-toggle">🌙 Toggle Dark Mode</button>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>&copy; 2026 Ahmed Yasser. All rights reserved.</p>
+    </footer>
+
+    <!-- External JS — last thing inside body -->
+    <script src="js/script.js"></script>
+</body>
+</html>
